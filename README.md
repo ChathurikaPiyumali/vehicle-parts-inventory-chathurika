@@ -123,14 +123,6 @@ http://localhost:3000
 
 ---
 
-## 📦 Submission Includes
-- ✅ Full project code (frontend & backend)
-- ✅ `README.md` setup guide
-- ✅ `vehicle_parts.sql` MySQL export
-- ✅ Screenshots of the UI
-
----
-
 ## 💬 Contact
 
 For help or inquiries, contact: [Chathurika Piyumali](mailto:chathurikapiyumali01@gmail.com)
