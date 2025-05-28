@@ -9,7 +9,7 @@ const sequelize = new Sequelize(
     dialect: 'mysql',
   }
 );
-
+//setup
 const Part = sequelize.define('Part', {
   name:       { type: DataTypes.STRING, allowNull: false },
   partType:   { type: DataTypes.STRING, allowNull: false },
