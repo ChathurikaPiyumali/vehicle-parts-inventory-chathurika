@@ -27,6 +27,7 @@ cd backend
 npm install
 
 Create a `.env` file:
+
 DB_HOST=localhost  
 DB_USER=root  
 DB_PASS=chathurika123  
