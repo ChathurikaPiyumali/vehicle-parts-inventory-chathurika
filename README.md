@@ -60,7 +60,7 @@ DELETE /parts/:id     → Delete part
 ## 📸 Screenshots
 
 ### 🏠 Home Page – Parts Listing
-![Home Page](https://github.com/ChathurikaPiyumali/vehicle-parts-inventory-chathurika/blob/main/Home.png)
+![Home Page](https://github.com/ChathurikaPiyumali/vehicle-parts-inventory-chathurika/blob/main/HomePage.png)
 
 ### ➕ Add New Part Form
 ![Add New Part](https://github.com/ChathurikaPiyumali/vehicle-parts-inventory-chathurika/blob/main/addnewpart.png?raw=true)
