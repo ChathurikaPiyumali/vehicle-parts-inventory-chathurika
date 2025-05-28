@@ -8,6 +8,8 @@ A fullstack web application for managing vehicle parts inventory with search, fi
 - **Database**: MySQL
 - **Tooling**: SQLTools (for database), Nodemon, VS Code
 
+---
+
 ## 🚀 Features
 - Add, edit, delete vehicle parts  
 - Search parts by name  
@@ -16,56 +18,119 @@ A fullstack web application for managing vehicle parts inventory with search, fi
 - RESTful API with Express.js and Sequelize  
 - MySQL for persistent storage
 
-### 1️⃣ Prerequisites
+---
+
+## ✅ Prerequisites
 - Node.js (v16+)
 - MySQL Server
 - VS Code (recommended)
 - SQLTools extension (optional)
 
-### 2️⃣ Backend Setup
-cd backend  
+---
+
+## 🔧 Backend Setup
+
+```bash
+cd backend
 npm install
+```
 
-Create a `.env` file:
+Create a `.env` file in the `backend` folder:
 
-DB_HOST=localhost  
-DB_USER=root  
-DB_PASS=chathurika123  
-DB_NAME=vehicle_parts  
+```
+DB_HOST=localhost
+DB_USER=root
+DB_PASS=chathurika123
+DB_NAME=vehicle_parts
 PORT=5000
+```
 
-Run the server:
+Start the backend server:
+
+```bash
 npx nodemon server.js
+```
 
-### 3️⃣ Create the MySQL Database
-Use SQLTools or MySQL CLI:
+---
+
+## 🛢️ MySQL Database Setup
+
+### Option 1: Create Manually
+
+```sql
 CREATE DATABASE vehicle_parts;
+```
 
-Run the backend once to auto-create the `parts` table via Sequelize.
+Then start the backend once — Sequelize will auto-create the `parts` table.
 
-### 4️⃣ Frontend Setup
-cd frontend  
-npm install  
+---
+
+### Option 2: Import SQL File (Recommended for new machines)
+
+1. Ensure MySQL Server is running.
+2. Open terminal or CMD.
+3. Navigate to the project directory.
+4. Run the following command:
+
+```bash
+mysql -u root -p vehicle_parts < vehicle_parts.sql
+```
+
+> Replace `root` and `vehicle_parts` if your DB credentials are different.
+
+This will restore the database structure and sample data (if included).
+
+---
+
+## 🎨 Frontend Setup
+
+```bash
+cd frontend
+npm install
 npm start
+```
 
-The app will be available at: http://localhost:3000
+The frontend will run on:
+
+```
+http://localhost:3000
+```
+
+---
 
 ## 🧪 API Endpoints
-GET    /parts         → List parts (with search/filter)  
-GET    /parts/:id     → Get part by ID  
-POST   /parts         → Create new part  
-PUT    /parts/:id     → Update part  
-DELETE /parts/:id     → Delete part
+
+| Method | Endpoint       | Description                  |
+|--------|----------------|------------------------------|
+| GET    | `/parts`       | List all parts (with filters)|
+| GET    | `/parts/:id`   | Get part by ID               |
+| POST   | `/parts`       | Create new part              |
+| PUT    | `/parts/:id`   | Update part                  |
+| DELETE | `/parts/:id`   | Delete part                  |
+
+---
 
 ## 📸 Screenshots
 
-### 🏠 Home Page – Parts Listing
+### 🏠 Home Page – Parts Listing  
 ![Home Page](https://github.com/ChathurikaPiyumali/vehicle-parts-inventory-chathurika/blob/main/HomePage.png)
 
-### ➕ Add New Part Form
+### ➕ Add New Part Form  
 ![Add New Part](https://github.com/ChathurikaPiyumali/vehicle-parts-inventory-chathurika/blob/main/Add.png)
 
-### ✏️ Edit Part Form
+### ✏️ Edit Part Form  
 ![Edit Part](https://github.com/ChathurikaPiyumali/vehicle-parts-inventory-chathurika/blob/main/Update.png)
 
+---
 
+## 📦 Submission Includes
+- ✅ Full project code (frontend & backend)
+- ✅ `README.md` setup guide
+- ✅ `vehicle_parts.sql` MySQL export
+- ✅ Screenshots of the UI
+
+---
+
+## 💬 Contact
+
+For help or inquiries, contact: [Chathurika Piyumali](mailto:chathurikapiyumali01@gmail.com)
