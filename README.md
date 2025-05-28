@@ -56,6 +56,15 @@ POST   /parts         → Create new part
 PUT    /parts/:id     → Update part  
 DELETE /parts/:id     → Delete part
 
-## 📸 Screenshots 
+## 📸 Screenshots
+
+### 🏠 Home Page – Parts Listing
+![Home Page](https://github.com/ChathurikaPiyumali/vehicle-parts-inventory-chathurika/blob/main/Home.png?raw=true)
+
+### ➕ Add New Part Form
+![Add New Part](https://github.com/ChathurikaPiyumali/vehicle-parts-inventory-chathurika/blob/main/addnewpart.png?raw=true)
+
+### ✏️ Edit Part Form
+![Edit Part](https://github.com/ChathurikaPiyumali/vehicle-parts-inventory-chathurika/blob/main/editpart.png?raw=true)
 
 
