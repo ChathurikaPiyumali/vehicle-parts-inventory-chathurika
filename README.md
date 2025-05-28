@@ -63,9 +63,9 @@ DELETE /parts/:id     → Delete part
 ![Home Page](https://github.com/ChathurikaPiyumali/vehicle-parts-inventory-chathurika/blob/main/HomePage.png)
 
 ### ➕ Add New Part Form
-![Add New Part](https://github.com/ChathurikaPiyumali/vehicle-parts-inventory-chathurika/blob/main/addnewpart.png?raw=true)
+![Add New Part](https://github.com/ChathurikaPiyumali/vehicle-parts-inventory-chathurika/blob/main/Add.png)
 
 ### ✏️ Edit Part Form
-![Edit Part](https://github.com/ChathurikaPiyumali/vehicle-parts-inventory-chathurika/blob/main/editpart.png?raw=true)
+![Edit Part](https://github.com/ChathurikaPiyumali/vehicle-parts-inventory-chathurika/blob/main/Update.png)
 
 
