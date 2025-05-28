@@ -16,26 +16,6 @@ A fullstack web application for managing vehicle parts inventory with search, fi
 - RESTful API with Express.js and Sequelize  
 - MySQL for persistent storage
 
-## 📂 Project Structure
-vehicle-parts-inventory-chathurika/
-├── backend/
-│   ├── server.js
-│   ├── .env
-│   ├── models/Part.js
-│   └── routes/parts.js
-├── frontend/
-│   ├── src/
-│   │   ├── App.js
-│   │   ├── api/parts.js
-│   │   ├── pages/
-│   │   │   ├── ListPage.jsx
-│   │   │   └── AddEditPage.jsx
-│   │   └── components/
-│   │       ├── PartForm.jsx
-│   │       └── PartList.jsx
-
-## ⚙️ Setup Instructions
-
 ### 1️⃣ Prerequisites
 - Node.js (v16+)
 - MySQL Server
